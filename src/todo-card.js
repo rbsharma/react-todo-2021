@@ -13,7 +13,7 @@ const TodoCard = ({ todo }) => {
         padding: "10px"
       }}
       key={todo.id}
-      onClick={history.push(`/todo/${todo.id}`)}
+      onClick={() => history.push(`/todo/${todo.id}`)}
     >
       <h3>{todo.title}</h3>
       <h5>{`Completed : ${todo.completed}`}</h5>

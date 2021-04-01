@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import TodoCard from "./todo-card";
 
 const Todos = () => {
-  const todos_url = "https://jsonplaceholder.typicode.com/todos";
+  const todos_url = `https://jsonplaceholder.typicode.com/todos`;
 
   const [todoList, setTodoList] = useState();
 
